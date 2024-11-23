@@ -28,10 +28,10 @@ const config = {
 const game = new Phaser.Game(config);
 
 function preload() {
-  this.load.image('background', 'assets/images/background/ai-generated-8886225.jpg');
-  this.load.image('player', 'assets/images/lilith/talking_blush.png'); // Đổi thành hình ảnh mới
-  this.load.image('obstacle', 'assets/images/ice/Icons-Land-Weather-Ice.256.png');
-  this.load.audio('bgMusic', 'assets/sounds/768553__josefpres__piano-loops-157-efect-3-octave-long-loop-120-bpm.wav');
+  this.load.image('background', 'ai-generated-8886225.jpg');
+  this.load.image('player', 'talking_blush.png'); // Đổi thành hình ảnh mới
+  this.load.image('obstacle', 'Icons-Land-Weather-Ice.256.png');
+  this.load.audio('bgMusic', '768553__josefpres__piano-loops-157-efect-3-octave-long-loop-120-bpm.wav');
 }
 
 function create() {
